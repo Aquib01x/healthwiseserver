@@ -1,0 +1,28 @@
+{
+  "name": "healthwiseserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "controller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "npx nodemon controller.js",
+    "con": "touch /home/fqb19176/DEVWEB/2023/nodejs/NODEJS",
+    "kill": "kill -9 $(lsof -ti:3000)"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.2.0",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "nodemailer": "^6.9.13",
+    "qrcode": "^1.5.3",
+    "validator": "^13.11.0"
+  }
+}
