@@ -4,15 +4,14 @@ This repository contains the NodeJS backend API which serves the frontend applic
 
 The Model-View-Controller pattern has been used to implement the backend as it provides code modularity, allows scalability, and facilitates easier maintenance. Additionally, the MVC pattern significantly reduces the risk of vulnerabilities by allowing individual components to be independently secured and tested:
 
-<img width="268" alt="Screenshot 2024-09-29 alle 17 36 16" src="https://github.com/user-attachments/assets/c1911db8-40d6-4dfb-8a15-b7ceea96cc68">
-
+<img width="445" alt="Screenshot 2024-09-29 alle 17 35 58" src="https://github.com/user-attachments/assets/ed02c601-7242-4cec-881b-fce76931ee1a">
 
 To facilitate communication between the React fronted and NodeJS backend, the Representational state transfer architectural style has been chosen for the API over more rigid or less universally supported protocols such as SOAP. REST's stateless approach and its reliance on simple HTTP methods (GET, POST, PUT,
 DELETE) make it well-suited for this project. REST APIs can also be easily integrated with the React application, allowing for dynamic content updates without reloading the page, thus enhancing the user experience with a fast and responsive interface.
 
 Here is the routing pipeline of requests from the frontend to the backend endpoints:
 
-<img width="445" alt="Screenshot 2024-09-29 alle 17 35 58" src="https://github.com/user-attachments/assets/ed02c601-7242-4cec-881b-fce76931ee1a">
+<img width="268" alt="Screenshot 2024-09-29 alle 17 36 16" src="https://github.com/user-attachments/assets/c1911db8-40d6-4dfb-8a15-b7ceea96cc68">
 
 
 Here is the complete API spec:
